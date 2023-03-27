@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        boolean result = Check.Check("hf_FJVuybhk", "fast567_", "fast567_");
+        if (!result) {
+            System.out.println("Данные введены корректно");
+        }
     }
 }
